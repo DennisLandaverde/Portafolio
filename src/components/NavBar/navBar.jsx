@@ -20,13 +20,13 @@ function NavBar() {
       </div>
      
       <div className="social-icons">
-        <a href="https://t.me/tuusuario" target="_blank" aria-label="Telegram">
+        <a href="http://t.me/DennisLandaverde" target="_blank" aria-label="Telegram">
           <i className="fab fa-telegram-plane"></i>
         </a>
-        <a href="https://www.linkedin.com/in/tuusuario" target="_blank" aria-label="LinkedIn">
+        <a href="https://www.linkedin.com/in/dennis-landaverde-921a38230" target="_blank" aria-label="LinkedIn">
           <i className="fab fa-linkedin-in"></i>
         </a>
-        <a href="https://github.com/tuusuario" target="_blank" aria-label="GitHub">
+        <a href="https://github.com/DennisLandaverde" target="_blank" aria-label="GitHub">
           <i className="fab fa-github"></i>
         </a>
       </div>
