@@ -97,30 +97,31 @@
  }
  
  .cv-button {
-   color: white;
-   background-color: rgba(63, 63, 63, 0.5);
-   border: 1px solid rgb(138, 102, 201);
-   text-align: center;
-   padding: 15px 30px;
-   border-radius: 13px;
-   transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
-   cursor: pointer;
-   font-size: 16px;
-   display: flex;
-   align-items: center;
-   justify-content: center; /* Center button text */
-   margin-bottom: 30px; /* Space below the button */
- }
- 
- .cv-button:hover,
- .cv-button:focus {
-   background-color: rgb(120, 92, 168);
-   transform: scale(1.08);
-   box-shadow: 0 6px 12px rgb(28, 28, 28);
- }
- 
- .cv-button:active {
-   transform: scale(0.9);
-   box-shadow: 0 2px 4px rgb(28, 28, 28);
- }
+  color: white;
+  background-color: rgba(63, 63, 63, 0.5);
+  border: 1px solid rgb(138, 102, 201);
+  text-align: center;
+  padding: 15px 30px;
+  border-radius: 13px;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center button text */
+  margin-bottom: 30px; /* Space below the button */
+  text-decoration: none; /* Remove underline from the link */
+}
+
+.cv-button:hover,
+.cv-button:focus {
+  background-color: rgb(120, 92, 168);
+  transform: scale(1.08);
+  box-shadow: 0 6px 12px rgb(28, 28, 28);
+}
+
+.cv-button:active {
+  transform: scale(0.9);
+  box-shadow: 0 2px 4px rgb(28, 28, 28);
+}
  

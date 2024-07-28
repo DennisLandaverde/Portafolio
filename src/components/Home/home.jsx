@@ -10,7 +10,9 @@ function Home() {
   return (
     <div className="home-container">
       <h2>Dennis Landaverde</h2>
-      <button className="cv-button">Download CV</button>
+      <a href="../../assets/Dennis_CV.pdf" className="cv-button" download>
+        Download CV
+      </a>
       <div className="car">
         <div className="text-content">
           <div className="info">
